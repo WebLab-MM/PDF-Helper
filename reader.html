@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/main.css">
+</head>
+<body>
+    <div class="main-pdf" id="main">
+        <iframe id="source" src="upload/uploaded-pdf.pdf" frameborder="0" type="application/pdf"></iframe>
+    </div>
+    <div class="search" id="search">
+        <h1>Pdf Helper</h1>
+        <input type="text" id="sn" maxlength="3" size="7" placeholder="Справка №">
+        <input type="text" id="input" maxlength="3" size="8" placeholder="Страница №">
+        <button onclick="moreBtn()">Add Page</button>
+        <br>
+        <input class="more" id="sn1" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input1" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn" onclick="moreBtn1()">Add Page</button>
+        <br>
+        <button class="more" id="btn1" onclick="results1()">Show All Pages</button>
+        <input class="more" id="sn2" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input2" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn2" onclick="moreBtn2()">Add Page</button>
+        <br>
+        <button class="more" id="btn3" onclick="results2()">Show All Pages</button>
+        <input class="more" id="sn3" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input3" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn4" onclick="moreBtn3()">Add Page</button>
+        <br>
+        <button class="more" id="btn5" onclick="results3()">Show All Pages</button>
+        <input class="more" id="sn4" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input4" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn6" onclick="moreBtn4()">Add Page</button>
+        <br>
+        <button class="more" id="btn7" onclick="results4()">Show All Pages</button>
+        <input class="more" id="sn5" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input5" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn8" onclick="moreBtn5()">Add Page</button>
+        <br>
+        <button class="more" id="btn9" onclick="results5()">Show All Pages</button>
+        <input class="more" id="sn6" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input6" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn10" onclick="moreBtn6()">Add Page</button>
+        <br>
+        <button class="more" id="btn11" onclick="results6()">Show All Pages</button>
+        <input class="more" id="sn7" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input7" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn12" onclick="moreBtn7()">Add Page</button>
+        <br>
+        <button class="more" id="btn13" onclick="results7()">Show All Pages</button>
+        <input class="more" id="sn8" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input8" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn14" onclick="moreBtn8()">Add Page</button>
+        <br>
+        <button class="more" id="btn15" onclick="results8()">Show All Pages</button>
+        <input class="more" id="sn9" type="text" maxlength="3" size="7" placeholder="Справка №">
+        <input class="more" id="input9" type="text" maxlength="3" size="8" placeholder="Страница №">
+        <button class="more" id="btn16" onclick="moreBtn9()">Add Page</button>
+        <br>
+        <button class="more" id="btn17" onclick="results9()">Show All Pages</button>
+        <p id="p">Created by <b> WebLab</b></p>
+    </div>
+    <div class="results" id="result">
+        <iframe id="page" src="" type="application/pdf"></iframe>
+        <hr id="hr">
+        <iframe id="page1" src="" type="application/pdf"></iframe>
+        <hr id="hr1">
+        <iframe id="page2" src="" type="application/pdf"></iframe>
+        <hr id="hr2">
+        <iframe id="page3" src="" type="application/pdf"></iframe>
+        <hr id="hr3">
+        <iframe id="page4" src="" type="application/pdf"></iframe>
+        <hr id="hr4">
+        <iframe id="page5" src="" type="application/pdf"></iframe>
+        <hr id="hr5">
+        <iframe id="page6" src="" type="application/pdf"></iframe>
+        <hr id="hr6">
+        <iframe id="page7" src="" type="application/pdf"></iframe>
+        <hr id="hr7">
+        <iframe id="page8" src="" type="application/pdf"></iframe>
+        <hr id="hr8">
+        <iframe id="page9" src="" type="application/pdf"></iframe>
+        <hr id="hr9">
+    </div>
+    <div class="tab" id="tab">
+        <h2>Scroll here to move the documents</h2>
+        <img src="vendor/scroll.gif" alt="scrollgif">
+        <ul class="myclass">
+            <li id="sf"></li>
+            <li id="sf1"></li>
+            <li id="sf2"></li>
+            <li id="sf3"></li>
+            <li id="sf4"></li>
+            <li id="sf5"></li>
+            <li id="sf6"></li>
+            <li id="sf7"></li>
+            <li id="sf8"></li>
+            <li id="sf9"></li>
+        </ul>
+        <button id="back" onclick="back()">Back to search</button>
+    </div>
+
+
+
+
+
+    <script src="vendor/main.js"></script>
+</body>
+</html>
